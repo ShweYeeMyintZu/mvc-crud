@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<title>SignUp Form</title>
+<body>
+<h1>Welcome From Our World</h1>
+<form th:action="@{sign-up}" method="post">
+    <p>First Name <input type="text" name="firstName"></p>
+    <p>Last Name<input type="text" name="lastName"></p>
+    <input type="submit" vaue="Save"/>
+</form>
+</body>
+</html>
